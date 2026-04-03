@@ -1,0 +1,85 @@
+{
+  "name": "design-pattern-miner",
+  "version": "1.0.0",
+  "description": "从任何开源项目/文章中提取设计思想、实现逻辑和核心架构",
+  "author": "买买 (基于 Skill-Architect + Skill-Creator 方法论)",
+  "license": "MIT",
+  "trigger": [
+    "分析这个项目的设计思想",
+    "提取实现逻辑",
+    "拆解架构",
+    "这个项目是怎么实现的",
+    "学习这个项目的精华",
+    "提取设计模式",
+    "分析技术思想",
+    "这个项目核心思路是什么"
+  ],
+  "category": "analysis",
+  "tags": [
+    "design-pattern",
+    "architecture",
+    "analysis",
+    "learning",
+    "开源分析",
+    "设计思想",
+    "架构拆解",
+    "技能设计"
+  ],
+  "source": {
+    "methodology": [
+      "Skill-Architect v1.1.0",
+      "Skill-Creator (Anthropic 官方)",
+      "一泽 Eze: Skill 的哲学式设计"
+    ],
+    "created_by": "买买",
+    "date": "2026-04-03"
+  },
+  "copaw": {
+    "min_version": "0.1.0",
+    "priority": 95,
+    "auto_activate": true
+  },
+  "capabilities": [
+    "github_analysis",
+    "article_analysis",
+    "design_pattern_extraction",
+    "architecture_decomposition",
+    "methodology_abstraction",
+    "mermaid_diagram_generation",
+    "comparative_analysis",
+    "reuse_recommendation"
+  ],
+  "workflow": {
+    "steps": [
+      "访问链接获取内容",
+      "识别核心设计思想",
+      "拆解实现逻辑和架构",
+      "提炼可复用方法论",
+      "生成结构化报告"
+    ],
+    "output_formats": [
+      "markdown",
+      "mermaid",
+      "skill_template",
+      "all"
+    ],
+    "depth_levels": [
+      "summary",
+      "standard",
+      "detailed"
+    ]
+  },
+  "legal": {
+    "extracts": "design_thoughts_and_logic",
+    "does_not_extract": [
+      "source_code_reuse",
+      "copyrighted_content",
+      "patented_implementation"
+    ],
+    "compliant_with": [
+      "ideas_not_copyrightable",
+      "learning_reference",
+      "independent_implementation"
+    ]
+  }
+}
