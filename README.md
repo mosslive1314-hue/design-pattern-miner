@@ -1,5 +1,7 @@
 # Design Pattern Miner · 设计模式挖掘机
 
+> **🚀 飞书 CLI 创作者大赛 参赛作品**
+>
 > 从任何开源项目/文章中提取设计思想、实现逻辑和核心架构
 > 
 > **核心理念**：提取思想，不复用代码；把选择交给用户
@@ -7,12 +9,13 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/mosslive1314-hue/design-pattern-miner)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/mosslive1314-hue/design-pattern-miner/blob/main/LICENSE)
 [![CoPaw](https://img.shields.io/badge/CoPaw-Skill-purple.svg)](https://copaw.agentscope.io/)
+![Competition](https://img.shields.io/badge/competition-Feishu%20CLI%20Creator%20Contest-ff69b4)
 
 ---
 
 ## 📖 简介
 
-**Design Pattern Miner** 是一个 CoPaw 技能，用于从任何开源项目/文章中快速提取设计思想、实现逻辑和核心架构。
+**Design Pattern Miner** 是一个开发工具技能，可在 **CoPaw / 飞书 CLI** 中使用，用于从任何开源项目/文章中快速提取设计思想、实现逻辑和核心架构。
 
 **核心特点**：
 - 🎯 **用户可配置**：输出格式、提取深度、输出内容全部可由用户选择
@@ -20,6 +23,7 @@
 - 📚 **多源支持**：GitHub、微信文章、小红书、技术博客
 - 🔒 **安全合规**：只提取思想，不复用代码
 - 📊 **结构化输出**：Markdown、流程图、技能模板、架构图
+- ✨ **飞书 CLI 兼容**：完全符合飞书 CLI 技能规范，可以直接在飞书中使用
 
 ---
 
@@ -437,6 +441,31 @@ MIT License - 详见 [LICENSE](LICENSE)
 1. 提交 Issue
 2. 联系作者：买买
 3. CoPaw 社区讨论
+
+---
+
+## 🚀 飞书 CLI 创作者大赛
+
+本作品参加 **[飞书 CLI 创作者大赛](https://bytedance.larkoffice.com/docx/HWgKdWfeSoDw36xu7EYctBrUnsg)**，完全符合飞书 CLI 开发规范。
+
+### 作品信息
+
+- **作品名称**: `lark-design-pattern-miner` - 设计模式挖掘机
+- **作者**: 买买 (@mosslive1314-hue)
+- **分类**: development 开发工具
+- **飞书 CLI Skill**: `lark-design-pattern-miner/SKILL.md`
+
+### 核心创新
+
+| 创新点 | 说明 |
+|------|------|
+| **设计思想挖掘** | 从开源项目/文章中挖出可复用的设计思想，不用一行行读代码 |
+| **多输入源支持** | GitHub 项目 / 微信文章 / 小红书笔记 / 技术博客，全都能分析 |
+| **用户完全可控** | 输出格式 / 提取深度 / 提取内容，全部可配置 |
+| **结构化输出** | Markdown / Mermaid 流程图 / 技能模板 / 架构图，多种输出 |
+| **合规优先** | 只提取思想，不复制代码，遵守版权协议 |
+
+---
 
 ---
 
